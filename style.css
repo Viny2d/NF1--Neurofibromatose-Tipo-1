@@ -21,7 +21,15 @@ img{
   height: auto;
 }
 
+#cabeçalho{
+  border-bottom: solid 2px;
+  cursor: pointer;
+  color: #c5cae9;
+  box-shadow: 0 1px 4px #333;
+}
+
 header {
+  font-weight: bold;
   font-size: 2em;
   text-align: center;
   margin-top: 3%;
@@ -57,9 +65,23 @@ p {
   margin-bottom: 3%;
 }
 
+#publicaçao{
+  margin: 2% 10% 0% 10%;
+  color: #333;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #000000;
+  border-top: 1px solid #c5cae9;
+  margin-top: 2%;
+}
 
 button {
-  background-color: #0066cc;
+  background-color: rgb(55, 41, 163);
   color: white;
   border: none;
   padding: 10px 16px;
@@ -69,14 +91,14 @@ button {
 }
 
 button:hover {
-  background-color: #004d99;
+  background-color: rgb(55, 41, 163);
 }
 
 #scroll {
   position: fixed;
   bottom: 40px;
   right: 40px;
-  background-color: #0066cc;
+  background-color:  rgb(45, 24, 207);
   color: white;
   padding: 10px 16px;
   border: none;
@@ -89,7 +111,7 @@ button:hover {
 }
 
 #scroll:hover {
-  background-color: #004d99;
+  background-color: rgb(35, 20, 153);
   transform: scale(1.1);
 }
 
